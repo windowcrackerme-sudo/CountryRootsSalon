@@ -11,5 +11,11 @@
     <!-- Main content of website -->
     <h1>Country Roots Salon</h1>
     <p>Hair cut? </p>
+    <section>
+        <div>
+            <h2>GeeksforGeeks</h2>
+            <p>Gradient background Animation</p>
+        </div>
+    </section>
 </body>
 </html>
