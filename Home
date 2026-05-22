@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="homeStyles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+    <title>Country Roots Salon LLC</title>
+</head>
+<body>
+    <!-- Main content of website -->
+    <h1>Country Roots Salon</h1>
+    <p>Hair cut? </p>
+</body>
+</html>
