@@ -1,21 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <link rel="stylesheet" href="homeStyles.css">
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
     <meta name="viewport" content=
-        "width=device-width, initial-scale=1.0" />
-    <title>Country Roots Salon LLC</title>
+        "width=device-width,initial-scale=1.0">
+    <title>side navigation bar</title>
+    <script src=
+"https://kit.fontawesome.com/bba3432f3f.js"
+               crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Main content of website -->
-    <h1>Country Roots Salon</h1>
-    <p>Hair cut? </p>
-    <section>
-        <div>
-            <h2>Country Roots Salon </h2>
-            <p>Hair Cuts, Hair Color, Midwest Nice</p>
+    <div class="header">
+      <h1 class="titleText">Country Roots Salon</h1>
+        <div class="side-nav">
+            <a href="#" class="logo">
+                <img src="logo.png" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">
+                        <i class="fa-solid fa-house-user"></i>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <i class="fa-solid fa-comment-dots"></i>
+                        <p>Service</p>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <i class="fa-solid fa-user"></i>
+                        <p>Pictures</p>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <i class="fa-solid fa-box-open"></i>
+                        <p>Products</p>
+                    </a>
+                </li>
+                <div class="active"></div>
+            </ul>
         </div>
-    </section>
+    </div>
 </body>
 </html>
