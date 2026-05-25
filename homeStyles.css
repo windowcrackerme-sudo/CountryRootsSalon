@@ -2,7 +2,7 @@
     body {
         margin: 0;
         padding: 0;
-        animation: effect 3s linear infinite;
+		background: linear-gradient(#008000, #00FF00);
     }
 
     section {
@@ -22,16 +22,3 @@
         text-align: center;
     }
 
-    @keyframes effect {
-        0% {
-            background: linear-gradient(#008000, #00FF00);
-        }
-
-        50% {
-            background: linear-gradient(#220080, #0084ff);
-        }
-
-        100% {
-            background: linear-gradient(#e78f3c, #ff4800);
-        }
-    }
