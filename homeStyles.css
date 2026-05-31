@@ -7,8 +7,14 @@
 }
 
 .titleText {
-  text-align: right;
-  margin-right: 100;
+  text-align: center;
+  margin-left: 220;
+}
+
+.hoursText {
+  text-align:center;
+  margin-top: 30;
+  margin-left: 220;
 }
 
 .header {
@@ -76,10 +82,6 @@
 .nav-links li:hover a {
     color: #fff;
     transition: 0.3s;
-}
-
-.nav-links li:hover~.active {
-    display: block;
 }
 
 .nav-links li:nth-child(1):hover~.active {
