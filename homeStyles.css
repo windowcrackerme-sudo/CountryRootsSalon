@@ -38,11 +38,12 @@
 	position: relative;
 	right: -100%;
 	top: -20%;
-	
 }
 
 .BobbieJoPic{
 border-radius: 8px;
+width: 100%;
+height: auto;
 }
 
 body {
@@ -60,6 +61,12 @@ body {
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+/* gets the sizing right when selecting an image*/
+.selectedPic{
+	width: 100%;
+	height: auto;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
