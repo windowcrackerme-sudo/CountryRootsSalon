@@ -5,11 +5,11 @@
 <link rel="stylesheet" href="homeStyles.css">
 </head>
 <body>
-<div class="container">
-  <img src="roots.jpg" alt="roots" class="titlePic">
+<div>
+		  <img src="roots.jpg" alt="roots" class="titlePic">
 
-  <div class="header">Country Roots Salon LLC</div>
-  </div>
+		  <div class="header">Country Roots Salon LLC</div>
+</div>
   <div class="filter">
     <p style="text-align: center;">
       "If fashion pollutes it should no longer be called fashion, it should be called pollution."~ Horst Rechelbacher
@@ -28,14 +28,83 @@
         </p>
   </div>
   
-  <div class="aboutMeText">
+  <div class="aboutMeHeader">
 		<h1> Aveda Trained Color Specialist BobbieJo </h1>
+		<div class="aboutMeText">
+			<p> Been doing hair for 2 decades. My services include cuts, color, styling, waxing, and hair washing. 
+			I also have hair washing and styling products for sale  </p>
+		</div>
+		<div class="aboutMePic">
+			<img src="Think serj.jpg" alt="bobbiejo" class="BobbieJoPic">
   
+		</div>
   </div>
-  
-  <div class="aboutMePic">
-	 <img src="Think serj.jpg" alt="bobbiejo" class="BobbiejoPic">
-  
-  </div>
+<!-- Container for the image gallery -->
+	<div class="container">
+
+<!-- Full-width images with number text -->
+		  <div class="mySlides">
+			<div class="numbertext">1 / 6</div>
+			  <img src="Hair1.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">2 / 6</div>
+			  <img src="Hair2.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">3 / 6</div>
+			  <img src="Hair3.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">4 / 6</div>
+			  <img src="Hair4.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">5 / 6</div>
+			  <img src="Hair5.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">6 / 6</div>
+			  <img src="Hair1.jpg" style="width:100%">
+		  </div>
+
+<!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!-- Image text -->
+		  <div class="caption-container">
+			<p id="caption"></p>
+		  </div>
+
+<!-- Thumbnail images -->
+		  <div class="row">
+			<div class="column">
+			  <img class="demo cursor" src="Hair1.jpg" style="width:100%" onclick="currentSlide(1)" alt="hair1">
+			</div>
+			<div class="column">
+			  <img class="demo cursor" src="Hair2.jpg" style="width:100%" onclick="currentSlide(2)" alt="hair2">
+			</div>
+			<div class="column">
+			  <img class="demo cursor" src="Hair3.jpg" style="width:100%" onclick="currentSlide(3)" alt="hair3">
+			</div>
+			<div class="column">
+			  <img class="demo cursor" src="Hair4.jpg" style="width:100%" onclick="currentSlide(4)" alt="hair4">
+			</div>
+			<div class="column">
+			  <img class="demo cursor" src="Hair5.jpg" style="width:100%" onclick="currentSlide(5)" alt="hair5">
+			</div>
+			<div class="column">
+			  <img class="demo cursor" src="Hair1.jpg" style="width:100%" onclick="currentSlide(6)" alt="hair1">
+			</div>
+		  </div>
+		</div>
+		  
+	</div>
 </body>
 </html>
