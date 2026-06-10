@@ -30,19 +30,21 @@
 	height: 600px;
 }
 .aboutMeText{
+	
 }
 
 .aboutMePic{
 	background-color: #E7E1B1;
-	background-size: 600px 600px;
 	position: relative;
 	right: -100%;
+	bottom: 112px;
 }
 
 .BobbieJoPic{
 	border-radius: 8px;
-	width: 50%;
-	background-size: 600px 600px;
+	width: 600px;
+	height: 596px;
+	object-fit: cover;
 }
 
 body {
