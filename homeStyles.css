@@ -26,24 +26,23 @@
 .aboutMeHeader{
 	background-color: #E7E1B1;
 	width: 50%;
-	height: 600px;
 	text-align: center;
+	height: 600px;
 }
 .aboutMeText{
-	margin-top: 100px;
 }
 
 .aboutMePic{
 	background-color: #E7E1B1;
+	background-size: 600px 600px;
 	position: relative;
 	right: -100%;
-	top: -20%;
 }
 
 .BobbieJoPic{
-border-radius: 8px;
-width: 100%;
-height: auto;
+	border-radius: 8px;
+	width: 50%;
+	background-size: 600px 600px;
 }
 
 body {
@@ -55,7 +54,12 @@ body {
 }
 
 .container {
-  position: relative;
+  position: relative; 
+  width: 50%;
+  align-self: center;
+  margin-left:25%;
+  margin-top:10%;
+  
 }
 
 /* Hide the images by default */
