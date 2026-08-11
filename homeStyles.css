@@ -173,6 +173,7 @@ body {
 .column {
   float: left;
   width: 16.66%;
+  height: auto;
 }
 
 /* Add a transparency effect for thumnbail images */
