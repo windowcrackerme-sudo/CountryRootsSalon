@@ -82,14 +82,13 @@ body {
 .galleryBackground{
 	width: 100%;
 	position: absolute;
-	height: 100%;
+	height: 123%;
 	object-fit: cover;
-	margin-top: 25px;
 	
 }
 .CCL{
 	position: relative;
-	top: 700px;
+	top: 850px;
 	left: 10px;
 }
 
