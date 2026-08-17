@@ -11,6 +11,7 @@
 .logoPic{
 	position: relative;
 	bottom: 850px;
+	height: 100%;
 	
 	
 }
@@ -75,9 +76,10 @@
 	bottom:400px;
 }
 .aboutMeText{
-	position:relative;
-	margin-left: 20px;
-	margin-top: 250px;
+
+	padding: 100px;
+	margin-bottom: 100px;
+	margin-top: 100px;
 	vertical-align: center;
 	font-size: 24px;
 	font-weight: 600;
@@ -88,14 +90,18 @@
 	background-color: #E7E1B1;
 	position: relative;
 	right: -100%;
-	bottom: 366px;
+	bottom: 540px;
+	height: 600px;
+	
 }
 
 .BobbieJoPic{
-	border-radius: 8px;
-	width: 600px;
-	height: 596px;
+	
+	padding: 10px;
+	border-radius: 30px;
 	object-fit: cover;
+	height: 600px;
+	max-width: 100%;
 }
 
 body {
@@ -212,6 +218,116 @@ body {
 .demo:hover {
   opacity: 1;
 }
+
+/*changes the height of gallery & aboutMePic for different screen sizes*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.container{
+		bottom: 1000px;
+		width: 100px;
+	}
+	.aboutMePic{
+		
+		bottom:800px;
+	}
+	.aboutMeText{
+		margin-bottom: 50px;
+		margin-top: 0px;
+		padding: 50px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.container{
+		bottom: 1000px;
+		width: 350px;
+		left: 25%;
+	}
+	.CCL,.filter,.hoursInfo2{
+		bottom: 1000px;
+	}
+	.aboutMePic{
+		bottom:535px;
+	}
+	.aboutMeText{
+	margin-top: 0px;
+	padding: 50px;
+	}
+	.header{
+	bottom: 380px;
+	font-size: 40px;
+	left: 75px;
+	}
+	.logoPic{
+		bottom:350px;
+		height: 100px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	
+	.container{
+		bottom: 1000px;
+	}
+	.aboutMePic{
+		bottom:475px;
+	}
+	.logoPic{
+	bottom: 850px;
+	height: 100%;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+	.container{
+		bottom: 1300px;
+		width: 500px
+	}
+	.aboutMePic{
+		bottom:425px;
+	}
+	.filter,.hoursInfo2{
+		bottom: 1250px;
+	}
+	.CCL{
+		bottom: 450px;
+	}
+	.header{
+		bottom: 600px;
+		left: 200px;
+	}
+	.logoPic{
+		bottom: 600px;
+	}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+	.container{
+		bottom: 1300px;
+		width: 500px
+	}
+	.aboutMePic{
+		bottom:400px;
+	}
+	.filter,.hoursInfo2{
+		bottom: 1250px;
+	}
+	.CCL{
+		bottom: 450px;
+	}
+	.header{
+		bottom: 600px;
+		left: 200px;
+	}
+	.logoPic{
+		bottom: 600px;
+	}
+}
+}
+
 
 
 
