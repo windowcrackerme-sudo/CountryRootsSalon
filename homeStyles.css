@@ -224,18 +224,18 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.container{
-		bottom: 1025px;
+		bottom: 900px;
 		width: 350px;
 		left: 25%;
 	}
 	.filter,.hoursInfo2{
-		bottom: 1000px;
+		bottom: 800px;
 	}
 	.CCL{
 		bottom: 420px;
 	}
 	.aboutMePic{
-		bottom:535px;
+		bottom:835px;
 	}
 	.aboutMeText{
 	margin-top: 0px;
