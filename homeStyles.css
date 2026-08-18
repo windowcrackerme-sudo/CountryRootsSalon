@@ -224,9 +224,9 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.container{
-		bottom: 600px;
+		bottom: 800px;
 		width: 350px;
-		left: 25%;
+		left: 5%;
 	}
 	.filter,.hoursInfo2{
 		bottom: 800px;
@@ -239,9 +239,10 @@ body {
 	}
 	.aboutMeText{
 	padding: 50px;
+	font-size: 18px;
 	}
 	.header{
-	bottom: 200px;
+	bottom: 220px;
 	font-size: 20px;
 	left: 75px;
 	}
