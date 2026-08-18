@@ -219,22 +219,36 @@ body {
   opacity: 1;
 }
 
-/*changes the height of gallery & aboutMePic for different screen sizes*/
+/*resizes page for different screen sizes*/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.container{
+		bottom: 1025px;
+		width: 350px;
+		left: 25%;
+	}
+	.filter,.hoursInfo2{
 		bottom: 1000px;
-		width: 100px;
+	}
+	.CCL{
+		bottom: 420px;
 	}
 	.aboutMePic{
-		
-		bottom:800px;
+		bottom:535px;
 	}
 	.aboutMeText{
-		margin-bottom: 50px;
-		margin-top: 0px;
-		padding: 50px;
+	margin-top: 0px;
+	padding: 50px;
+	}
+	.header{
+	bottom: 380px;
+	font-size: 40px;
+	left: 75px;
+	}
+	.logoPic{
+		bottom:350px;
+		height: 100px;
 	}
 }
 
