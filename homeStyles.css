@@ -249,6 +249,9 @@ body {
 		
 		height: 50px;
 	}
+	.aboutMeHeaderTitle{
+		font-size: 20px;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
