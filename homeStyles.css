@@ -241,12 +241,15 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 	.container{
-		bottom: 1000px;
+		bottom: 1025px;
 		width: 350px;
 		left: 25%;
 	}
-	.CCL,.filter,.hoursInfo2{
+	.filter,.hoursInfo2{
 		bottom: 1000px;
+	}
+	.CCL{
+		bottom: 420px;
 	}
 	.aboutMePic{
 		bottom:535px;
@@ -270,14 +273,27 @@ body {
 @media only screen and (min-width: 768px) {
 	
 	.container{
-		bottom: 1000px;
+		bottom: 1200px;
+		width: 450px;
 	}
 	.aboutMePic{
-		bottom:475px;
+		bottom:480px;
 	}
 	.logoPic{
-	bottom: 850px;
-	height: 100%;
+	height: 150px;
+	bottom: 450px;
+	
+	}
+	.header{
+		bottom: 470px;
+		left: 150px;
+	}
+	.filter,.hoursInfo2{
+		bottom: 1150px;
+	}
+	.CCL{
+		bottom: 420px;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -296,34 +312,38 @@ body {
 		bottom: 450px;
 	}
 	.header{
-		bottom: 600px;
-		left: 200px;
+		bottom: 550px;
+		left: 250px;
 	}
 	.logoPic{
-		bottom: 600px;
+		bottom: 550px;
+		
 	}
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px){
 	.container{
-		bottom: 1300px;
-		width: 500px
+		max-width: 500px;
+		bottom: 1800px;
+		left: 32%;
 	}
 	.aboutMePic{
-		bottom:400px;
+		bottom:362px;
 	}
 	.filter,.hoursInfo2{
-		bottom: 1250px;
+		bottom: 1450px;
 	}
 	.CCL{
-		bottom: 450px;
+		bottom: 650px;
 	}
 	.header{
-		bottom: 600px;
-		left: 200px;
+		bottom: 850px;
+		left: 460px; 
+		font-size: 50px;
 	}
 	.logoPic{
-		bottom: 600px;
+		bottom: 850px;
+		height: 100%;
 	}
 }
 }
