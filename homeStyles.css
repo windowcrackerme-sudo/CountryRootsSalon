@@ -235,14 +235,14 @@ body {
 		bottom: 420px;
 	}
 	.aboutMePic{
-		bottom: 800px;
+		bottom: 600px;
 	}
 	.aboutMeText{
 	padding: 50px;
 	font-size: 18px;
 	}
 	.header{
-	bottom: 220px;
+		top: 50px;
 	font-size: 20px;
 	left: 75px;
 	}
