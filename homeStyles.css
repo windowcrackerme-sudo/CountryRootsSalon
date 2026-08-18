@@ -224,7 +224,7 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.container{
-		bottom: 900px;
+		bottom: 800px;
 		width: 350px;
 		left: 25%;
 	}
@@ -235,7 +235,7 @@ body {
 		bottom: 420px;
 	}
 	.aboutMePic{
-		bottom:835px;
+		bottom:635px;
 	}
 	.aboutMeText{
 	margin-top: 0px;
