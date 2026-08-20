@@ -228,6 +228,9 @@ body {
 		width: 350px;
 		left: 5%;
 	}
+	.filter,.hoursInfo2{
+		bottom: 800px;
+	}
 	.CCL{
 		bottom: 420px;
 	}
@@ -261,7 +264,7 @@ body {
 		width: 350px;
 		left: 25%;
 	}
-	.filter2,.hoursInfo2{
+	.filter,.hoursInfo2{
 		bottom: 1000px;
 	}
 	.CCL{
@@ -304,7 +307,7 @@ body {
 		bottom: 470px;
 		left: 150px;
 	}
-	.filter2,.hoursInfo2{
+	.filter,.hoursInfo2{
 		bottom: 1150px;
 	}
 	.CCL{
@@ -321,7 +324,7 @@ body {
 	.aboutMePic{
 		bottom:425px;
 	}
-	.filter2,.hoursInfo2{
+	.filter,.hoursInfo2{
 		bottom: 1250px;
 	}
 	.CCL{
@@ -346,7 +349,7 @@ body {
 	.aboutMePic{
 		bottom:362px;
 	}
-	.filter2,.hoursInfo2{
+	.filter,.hoursInfo2{
 		bottom: 1450px;
 	}
 	.CCL{
