@@ -242,9 +242,11 @@ body {
 	font-size: 18px;
 	}
 	.header{
-	top: 100px;
 	font-size: 20px;
 	left: 75px;
+	}
+	.hoursInfo{
+		top:100px;
 	}
 	.logoPic{
 		
